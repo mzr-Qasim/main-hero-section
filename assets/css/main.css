@@ -12216,6 +12216,14 @@ figure {
   background-color: #467394;
 }
 
+@media (max-width: 556px) {
+  .info-header .contact-logo {
+    display: none;
+  }
+  .info-header .contact-number {
+    display: none;
+  }
+}
 @media (max-width: 992px) {
   .services {
     position: static;
