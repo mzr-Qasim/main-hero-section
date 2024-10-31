@@ -12169,19 +12169,12 @@ figure {
   background-color: #002a4e;
   padding: 40px;
 }
-.services .services-container .row {
-  align-items: center;
-}
 .services .services-container .title h2, .services .services-container .title .h2 {
   color: #FFFFFF;
 }
 .services .services-container .swiper-wrapper .swiper-slide {
-  text-align: center;
-  font-size: 18px;
   display: flex;
   justify-content: center;
-  align-items: center;
-  color: #FFFFFF;
 }
 .services .services-container .swiper-wrapper .swiper-slide .items figure {
   width: 200px;
@@ -12214,6 +12207,20 @@ figure {
     display: none;
   }
 }
+@media (max-width: 768px) {
+  .services .services-container {
+    padding: 20px;
+  }
+  .services .services-container .title {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+  .services .services-container .swiper-slide {
+    display: flex;
+    justify-content: center;
+  }
+}
 @media (max-width: 992px) {
   .services {
     position: static;
@@ -12222,15 +12229,5 @@ figure {
   .services .services-container {
     margin-top: 50px;
     border-radius: 0 !important;
-  }
-}
-@media (max-width: 768px) {
-  .services .services-container {
-    padding: 20px;
-  }
-  .services .services-container .row .col-md-3 {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
   }
 }/*# sourceMappingURL=main.css.map */
